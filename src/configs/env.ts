@@ -3,4 +3,6 @@ import dotenv from "dotenv";
 
 dotenv.config({ path: `${appRoot}/.env` });
 
-export default {};
+export default {
+  PORT: process.env.PORT,
+};
